@@ -44,3 +44,8 @@ The terminal instruction as follow(all code are executed in terminal.app):
 
     
 
+required third-party application:
+>1.GPSBabel(An powerful tool for track-relating files converting):
+[Official website](https://www.gpsbabel.org)
+>2.Homebrew(An convenient tool for application/package installing ):
+[Official website](https://brew.sh)
