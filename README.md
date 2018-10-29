@@ -1,7 +1,7 @@
 #Manual
-These script are simple tool for .fit file(usually in garmin device) batch convert and backup.
-It can batch convert .fit to gpx,which can manully upload for other application,such as "Fog of World".
-###Current version is only test on Mac, haven't test on other operation system.
+These scripts are simple tool for .fit file(usually in Garmin device) batch convert and backup.
+It can batch convert .fit to gpx, which can manually upload for other application, such as "Fog of World".
+###Current version is the only test on Mac, haven't test on the other operating system.
 
 The terminal instruction as follow(all code are executed in terminal.app):
 >1.Install Homebrew:
@@ -12,7 +12,7 @@ The terminal instruction as follow(all code are executed in terminal.app):
     
     brew install gpsbabel
 
->3.Set working directory to fit file folder(also can be folder which save backup file):
+>3.Set the working directory to fit file folder(also can be the folder which stores backup file):
     
     cd path
 
@@ -30,8 +30,8 @@ The terminal instruction as follow(all code are executed in terminal.app):
     example,modify line 3 to line 5 if necessary:
     
     device=/Volumes/GARMIN/Garmin/Activities
-	backup=~/Documents/Trackdata/Backup
-	export=~/Documents/Fog\ of\ World/Import
+    backup=~/Documents/Trackdata/Backup
+    export=~/Documents/Fog\ of\ World/Import
     #(type 'i' to insert,the type "esc"key ,"shift"key+':' then "w"+"q" to save and quit when finish)
 
 >6-2.Executes Tracks_backup_converter.sh:
